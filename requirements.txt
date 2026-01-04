@@ -1,0 +1,43 @@
+# Data Processing
+numpy==1.24.3
+pandas==2.0.2
+scipy==1.10.1
+
+# Bioinformatics
+biopython==1.81
+pysam==0.22.0
+
+# Data Download & Web
+requests==2.31.0
+wget==3.2
+urllib3==2.0.4
+
+# Machine Learning (for baseline)
+scikit-learn==1.2.2
+
+# Deep Learning
+tensorflow==2.12.0
+torch==2.0.0
+torchvision==0.15.0
+
+# Visualization & Analysis
+matplotlib==3.7.1
+seaborn==0.12.2
+plotly==5.14.0
+
+# Development
+jupyter==1.0.0
+jupyterlab==4.0.0
+ipython==8.12.0
+
+# API (for Module 8)
+fastapi==0.100.0
+uvicorn==0.23.1
+
+# Web UI (for Module 9)
+streamlit==1.26.0
+
+# Utilities
+python-dotenv==1.0.0
+tqdm==4.65.0
+

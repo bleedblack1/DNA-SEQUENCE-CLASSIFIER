@@ -1,0 +1,39 @@
+# Virtual environment
+dna_env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.Python
+
+# Data files (large)
+data/raw/*.csv
+data/raw/*.npy
+data/raw/*.fasta
+data/processed/*.npy
+0_data_collection/raw_downloads/*
+
+# Model files
+models/*.h5
+models/*.pkl
+models/*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/*
+*.log
