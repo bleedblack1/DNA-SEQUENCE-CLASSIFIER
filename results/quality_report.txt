@@ -1,0 +1,48 @@
+
+==========================================================================================
+                               DATA QUALITY ANALYSIS REPORT                               
+==========================================================================================
+
+ DATASET OVERVIEW
+------------------------------------------------------------------------------------------
+  Total sequences:         289,002
+  Mean sequence length:    256 bp
+  Min/Max length:          256/256 bp
+  Std dev length:          0.00 bp
+   All sequences uniform length
+  CLASS DISTRIBUTION
+------------------------------------------------------------------------------------------
+  Non-regulatory      :  87,319 ( 30.2%)  Well balanced
+  Promoter            :  94,793 ( 32.8%)  Well balanced
+  Enhancer            : 106,890 ( 37.0%)  Well balanced
+
+ SEQUENCE COMPOSITION (Sample)
+------------------------------------------------------------------------------------------
+  A:  24.61% (  63 bases)
+  T:  23.44% (  60 bases)
+  G:  26.56% (  68 bases)
+  C:  25.39% (  65 bases)
+  N:   0.00% (   0 bases)
+
+ GC CONTENT ANALYSIS
+------------------------------------------------------------------------------------------
+  Mean GC content:         43.69%
+  Std dev GC:              11.77%
+  Min/Max GC:              0.00% / 93.36%
+  In range 40-60%:         139,565 (48.3%)
+   GC distribution skewed
+
+ QUALITY CHECKS
+------------------------------------------------------------------------------------------
+  Invalid sequences:       0  PASS
+  Duplicate sequences:     14  FAIL
+  Sequences with >10 N:    74,405 sequences
+  High homopolymer runs:   10,169 sequences
+
+📋 OVERALL QUALITY SCORE
+------------------------------------------------------------------------------------------
+  Quality Score: 80/100 - **** Good
+
+  ✅ READY FOR MODULE 1
+
+==========================================================================================
